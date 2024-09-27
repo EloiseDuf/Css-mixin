@@ -1,0 +1,26 @@
+@mixin myRing ($size,$pxBorder,$color){
+    width: $size;
+    height: $size;
+    border-radius: 150px;
+    border: $pxBorder $color solid;
+    margin:16px;
+    box-shadow: 20px 20px 20px $color;
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+
+@for $i from 1 through 6{
+    .ring#{$i}{
+        $size: 50px + ($i * 20px);
+        $pxBorder : 5px + ($i * 2px);
+        $color:#c4900d;
+    
+        @include myRing($size,$pxBorder,$color)
+    }
+
+}
+
+
+}
