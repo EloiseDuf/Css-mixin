@@ -1,3 +1,9 @@
+Pour avoir l'aperçu du résultat :
+
+![image](https://github.com/user-attachments/assets/c78996a0-f428-4a71-adbc-2cd6a6995ec8)
+
+
+
 # Ring
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.5.
